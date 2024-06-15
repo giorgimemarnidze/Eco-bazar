@@ -1,0 +1,19 @@
+.option {
+    padding: 10px 16px 10px 16px;
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    color: #4D4D4D;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.wrapper span {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+}

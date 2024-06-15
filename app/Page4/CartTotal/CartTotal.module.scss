@@ -1,0 +1,41 @@
+.container {
+    max-width: 425px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    height: 100%;
+    border: 1px solid #E6E6E6;
+}
+
+.a, .c {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.b {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free {
+    padding-right: 20px;
+}
+
+.btn {
+    background-color: #00B207;
+    padding: 16px 40px 16px 40px;
+    border-radius: 43px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}

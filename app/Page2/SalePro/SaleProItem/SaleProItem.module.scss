@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 312px;
+    width: 100%;
+    height: 100%;
+    padding: 24px 12px 25px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    gap: 30px;
+    cursor: pointer;
+}
+
+.mainimg {
+    max-width: 102px;
+    width: 100%;
+    height: 102px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text span {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.gadaxazuli {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.bla {
+    border: 1px solid #00B207;
+    box-shadow: 0px 0px 12px 0px #20B52652;
+}
+
+.bla:hover {
+    box-shadow: 0 0 12px 5px #32c737;
+    transition: 0.2s ease-in-out;
+}
+
+.nope {
+    border: 1px solid rgba(128, 128, 128, 0.568);
+}

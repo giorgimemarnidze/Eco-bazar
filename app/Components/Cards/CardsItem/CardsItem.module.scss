@@ -1,0 +1,58 @@
+.timeOut {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    max-width: 400px;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    height: 536px;
+}
+
+.gasworeba {
+    padding-left: 10px;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.text {
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+}
+
+.head {
+    color: #fff;
+}
+
+.text h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.gasworeba div span:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4px;
+}
+
+.gasworeba div span:last-child {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        display: none;
+    }
+}

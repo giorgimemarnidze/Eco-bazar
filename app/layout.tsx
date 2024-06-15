@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/HeaderUp/Header";
+import styles from './layout.module.scss'
+import Subscribe from "./Components/Subscribe/Subscribe";
+import HeaderDown from "./Components/Header/HeaderDown";
+import Menu from "./Components/Menu/Menu";
+import Image from "next/image";
+import RecoilWrapper from "./RecoilWrapper/RecoilWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +23,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={styles.container}>
+      <body className={inter.className}>
+        <div className={styles.header}>
+          <Header color={""} />
+        </div>
+        <div className={styles.headDown}>
+        <HeaderDown />
+        </div>
+        <Menu src={"blackcall.svg"} />
+        <Image src={'categories-background.svg'} alt="image" width={1920} height={120} className={styles.img} />
+        <RecoilWrapper>
+        {children}
+        </RecoilWrapper>
+        <Subscribe />
+        <Footer />
+      </body>
     </html>
   );
 }

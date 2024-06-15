@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    padding: 0 15px;
+}
+
+.container {
+    width: 310px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    color: rgb(17, 119, 56);
+    text-align: center;
+    border: 1px solid rgba(49, 206, 49, 0.863);
+    cursor: pointer;
+    padding: 10px 3px;
+    border-radius: 8px;
+}
+
+.container:hover {
+    box-shadow: 0 0 19px 0 green;
+}
+

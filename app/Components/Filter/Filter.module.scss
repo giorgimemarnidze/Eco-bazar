@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #00B207;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 14px 32px;
+    border-radius: 43px;
+}
+
+.container span {
+    font-size: 14px;
+    font-weight: 600;
+}

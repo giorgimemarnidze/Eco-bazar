@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1300px) {
+    .pro {
+        justify-content: center;
+        gap: 15px;
+    }
+}

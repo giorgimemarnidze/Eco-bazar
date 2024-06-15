@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    max-width: 1320px;
+    width: 100%;
+}
+
+.pro {
+    display: flex;
+    max-width: 1320px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 300px){
+    .header {
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,27 @@
+.littleContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.gaformeba {
+    border: 2px solid green;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.container:active {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    padding: 25px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+

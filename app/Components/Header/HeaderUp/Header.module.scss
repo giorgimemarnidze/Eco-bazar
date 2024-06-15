@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.container div:first-child {
+    display: flex;
+    font-size: 12px;
+    color: #666666;
+    align-items: center;
+    gap: 5px;
+}
+
+.container div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container div:last-child p{
+    display: flex;
+    gap: 20px;    
+    color: #666666;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        justify-content: center;
+        gap: 5px;
+    }
+}
+

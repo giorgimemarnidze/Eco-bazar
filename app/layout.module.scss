@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+.img {
+    width: 100%;
+}
+
+.headDown {
+    border-bottom: 1px solid rgba(172, 169, 169, 0.514);
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px) {
+    .container {
+        margin: 0 8px;
+    }
+}

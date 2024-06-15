@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    border-bottom: 1px solid rgba(165, 163, 163, 0.507);
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.sss {
+    position: relative;
+
+}
+
+.selected {
+    width: 130px;
+    height: 3px;
+    box-shadow: 0px -2px 0px 0px #20B526 inset;
+    position: absolute;
+    top: 28px;
+    right: -20px;
+}

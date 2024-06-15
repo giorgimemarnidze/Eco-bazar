@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+
+.text button {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #00B207;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text span:first-child {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text span:nth-child(2) {
+    color: #1A1A1A;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.text p {
+    color: #666666;
+    font-size: 14px;
+
+}
+
+.womann {
+    max-width: 423px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .cotnainer {
+        flex-wrap: wrap;
+    }
+}

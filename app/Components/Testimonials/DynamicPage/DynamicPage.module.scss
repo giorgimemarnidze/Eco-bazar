@@ -1,0 +1,25 @@
+.container {
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container:hover {
+    box-shadow: 0 0 10px 0 #00B207;
+}
+
+.backgroundWhite {
+    background-color: #fff;
+}
+
+.backgroundGreen {
+    background-color: #00B207;
+}

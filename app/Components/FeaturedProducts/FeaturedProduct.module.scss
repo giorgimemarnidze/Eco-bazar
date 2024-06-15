@@ -1,0 +1,24 @@
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    display: flex;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1300px) {
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+}

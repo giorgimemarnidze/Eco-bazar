@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container input {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container input::before {
+    height: 30px;
+    width: 30px;
+}
+
+.container span {
+    color: #999999;
+}

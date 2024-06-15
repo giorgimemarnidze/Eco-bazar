@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.container p span:first-child {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.container p span:last-child {
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+ 

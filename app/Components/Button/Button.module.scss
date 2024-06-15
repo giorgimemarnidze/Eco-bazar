@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    border: none;
+    background-color: unset;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.container span {
+    color: #00B207;
+    font-weight: 500;
+    font-size: 16px;
+}

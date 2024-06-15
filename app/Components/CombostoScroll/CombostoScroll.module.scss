@@ -1,0 +1,25 @@
+.container {
+    max-width: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.scroll {
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.item:hover {
+    border: 1px solid #2cce318a;
+    box-shadow: 0 0 12px 5px #2cce318a;
+}

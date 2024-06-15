@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input {
+    width: 60px;
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    outline: none;
+    cursor: pointer;
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.select {
+    padding: 5px;
+    width: 70px;
+    border: 2px solid green;
+    cursor: pointer;
+    outline: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+}

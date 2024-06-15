@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.link {
+    text-decoration: unset;
+}
+
+.text {
+    border-bottom: 1px solid #cac3c379;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

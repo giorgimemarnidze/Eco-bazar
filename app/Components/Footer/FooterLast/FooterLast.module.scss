@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.container p {
+    color: #808080;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 1423px) {
+    .container {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

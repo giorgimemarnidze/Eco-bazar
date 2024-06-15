@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.container span:first-child {
+    color: #fff;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.call {
+    display: flex;
+}
+
+.call span {
+    color: cornflowerblue;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    .container div:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container div:first-child {
+        display: none;
+    }
+}
