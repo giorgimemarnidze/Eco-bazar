@@ -1,0 +1,32 @@
+.container {
+    max-width: 984px;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    height: 404px;
+    border-radius: 9px;
+}   
+
+.container__header {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+
+.container__header h2 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container__header a {
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+    .container {
+        display: none;
+    }
+}

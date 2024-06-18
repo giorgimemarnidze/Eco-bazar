@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 418px;
+    border: 1px solid #E6E6E6;
+    padding: 10px 15px;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper {
+    width: 313px;
+    margin: 0 auto;
+}
+
+.selected {
+    background-color: #EDF2EE;
+    padding: 7px 0;
+}
+
+.grn {
+    position: absolute;
+    background-color: #20B526;
+    width: 3px;
+    height: 35px;
+    top: 32px;
+    left: 0;
+
+}

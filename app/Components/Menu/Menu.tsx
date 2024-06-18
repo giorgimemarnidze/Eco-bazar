@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 type Props = {
     color?: string
+    src: string;
 }
 
 const Menu = (props: Props) => {
@@ -23,8 +24,8 @@ const Menu = (props: Props) => {
             <div className={`${styles.menuContainer} ${color}`}>
                 <MenuItem title='Home' href={'http://localhost:3000/'} />
                 <MenuItem title='Shop' href={'/Page2'} />
-                <MenuItem title='Pages' href={'Page3'} />
-                <MenuItem title='Blog' href={''} />
+                <MenuItem title='Pages' href={'/Page3'} />
+                <MenuItem title='Blog' href={'/Page9'} />
                 <MenuItem title='About Us' href={''} />
                 <MenuItem title='Contact Us' href={''} />
             </div>
